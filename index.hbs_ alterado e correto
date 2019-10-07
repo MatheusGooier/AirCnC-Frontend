@@ -1,0 +1,717 @@
+{{> header}}
+    <div class="ds-grid">
+      <div class="ds-row"  style="background-image: url(images/backgroud.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+        <div></br></br></div>
+        <div class="ds-col-xs-10 ds-offset-xs-1 ds-col-lg-8 ds-offset-lg-2 ds-col-xl-6 ds-offset-xl-3 ds-align-text-left ds-shadow-text">
+          <h4 class="ds-heading-4"></h4>
+          <h1 class="ds-heading-2">
+            <center>Welcome to Brazil Client Innovation Center!</center>
+          </h1>
+          <p class="ds-margin-bottom-2">
+            <center>Explore CIC Brazil in a single place and know how we can deliver the services your clients are expecting with focus on high-quality, commitment and responsibility to others.</center>
+          </p>
+        </br>
+          <center> <div id="player"></div></center>
+        </div>
+        <div></br></br></div>
+      </div>
+    </div>
+    <div class="ds-grid">
+        <div class="ds-row" id="industries-link">
+            <div class="ds-media-list-large ds-col-md-10 ds-offset-1" >
+              <div class="ds-padding-1">
+                <div class="ds-heading-2">Industries</div>
+              </div>
+            </div>
+          <div class="ds-media-list-large ds-col-md-10 ds-offset-1">
+            <div class="ds-carousel">
+              <div class="ds-carousel-items">
+                <div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-1 ds-offset-0" id="overlay-custom-close-demo-automotive-open">
+                    <img src="images/industries/automotive/automotive.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">Automotive</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                  <div class="ds-col-0 "></div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-1 ds-offset-0" id="overlay-custom-close-demo-consumer-open">
+                    <img src="images/industries/consumer/consumer.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">Consumer</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                  <div class="ds-col-0 "></div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-2 ds-offset-0" id="overlay-custom-close-demo-healthcare-lifescience-open">
+                    <img src="images/industries/healthcare/healthcare.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">HealthCare and LifeScience</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                  <div class="ds-col-0 "></div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-2 ds-offset-0" id="overlay-custom-close-demo-banking-financial-markets-open">
+                    <img src="images/industries/bankingandfinancialmarkets/bankingandfinancialmarkets.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">Banking and Financial Markets</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                  <div class="ds-col-0 "></div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-2 ds-offset-0" id="overlay-custom-close-demo-telecommunication-open">
+                    <img src="images/industries/telecommunication/telecommunication.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">Telecom</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-1 ds-offset-1" id="overlay-custom-close-demo-insurance-open">
+                    <img src="images/industries/insurance/insurance.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">Insurance</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                  <div class="ds-col-0 "></div>
+                  <div class="ds-col-2 ds-shadow-floating ds-padding-0 ds-margin-bottom-1 ds-offset-0" id="overlay-custom-close-demo-media-entertainment-open">
+                    <img src="images/industries/media-entertainment/media-entertainment.jpg" class="ds-img-responsive">
+                    <div class="ds-media-list-item ds-col-12">
+                        <center><h3 class="ds-media-list-title">Media & Entertainment</h3></center>
+                        <!-- <p class="ds-media-list-desc">small description here</p>  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <div class="ds-grid">
+      <div class="ds-row" style="background-image: url('images/strengths/backgroud.jpg'); color: white;">
+        <div class="ds-media-list-large ds-col-md-10 ds-offset-1">
+            <div class="ds-row" id="strengths-link">
+              <div class="ds-padding-1">
+                <div class="ds-heading-2 ds-font-weight-medium">Strengths</div>
+              </div>
+                <div class="ds-media-list-item ds-col-2" style="box-sizing: content-box;">
+                    <div>
+                        <center><i class="fa fa-3x fa-expand text-primary mb-3 text-success" style="color:#FDFDFD"></i></center>
+                   </div>
+                    <center><h3 class="ds-media-list-title">Infrastructure</h3></center>
+                    <center><p class="ds-caption">Growth platform presence</p></center>
+                </div>
+                <div class="ds-media-list-item ds-col-2" style="box-sizing: content-box;">
+                    <div>
+                      <center><i class="fa fa-3x fa-user text-primary mb-3 text-success" style="color:#FDFDFD"></i></center>
+                   </div>
+                    <center><h3 class="ds-media-list-title">Experience</h3></center>
+                    <center><p class="ds-caption">Ability to handle end to end engagements including sales and solutioning</p></center>
+                </div>
+                <div class="ds-media-list-item ds-col-2" style="box-sizing: content-box;">
+                    <div>
+                      <center><i class="fa fa-3x fa-clock text-primary mb-3 text-success" style="color:#FDFDFD"></i></center>
+                   </div>
+                    <center><h3 class="ds-media-list-title">Time Zone</h3></center>
+                    <center><p class="ds-caption">North America and South West EU Time-zone proximity and cultural alignment</p></center>
+                </div>
+                <div class="ds-media-list-item ds-col-2" style="box-sizing: content-box;">
+                    <div>
+                      <center><i class="fa fa-3x fa-trophy text-primary mb-3 text-success" style="color:#FDFDFD"></i></center>
+                   </div>
+                    <center><h3 class="ds-media-list-title">SAP Expertise</h3></center>
+                    <center><p class="ds-caption">SAP localization expertise for Brazil/LA countries and business proximity</p></center>
+                </div>   
+                <div class="ds-media-list-item ds-col-2" style="box-sizing: content-box;">
+                    <div>
+                      <center><i class="fa fa-3x fa-comments text-primary mb-3 text-success" style="color:#FDFDFD"></i></center>
+                   </div>
+                    <center><h3 class="ds-media-list-title">Language</h3></center>
+                    <center><p class="ds-caption">Portugese, English and Spanish. Our team are prepared for the best care</p></center>
+                </div>                   
+                <div class="ds-row"></div>
+            </div>
+        </div>
+    </div>
+  </div>
+  </br>
+  <!- OFFERINGS -!>
+  <div class="ds-grid ds-padding-2">
+    <div class="ds-row">
+      <div class="ds-col-6 ds-shadow-raised" style="background-color: #FCFCFE; ">
+        <div class="ds-row" id="offerings-link">
+          <div class="ds-media-list-large ds-col-md-10 ds-offset-1" >
+              <div class="ds-row" >
+                <div class="ds-padding-1">
+                  <div class="ds-heading-2 ">Offerings</div>
+                </div>
+                <div class="ds-accordion-container ds-single-toggle ds-margin-top-0 ds-margin-bottom-0" aria-label="W3DS Accordion Single Toggle Example">
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">Application Development</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Enable Digital Customer Engagement</p>
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Innovate Network and Platform Agility</p>
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Drive Enterprise Transformation</p>
+                        </div>
+                    </div>
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">Interactive Experience & Mobile</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Reinvent your business with the best of the Digital era</p>
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Define your strategy, create exceptional experiences and build your business, by design</p>
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Make the best use of IBM Design Thinking for a user-centric experience to delight your customers</p>
+                        </div>
+                    </div>
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">Business Analytics Strategy</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Improve quality and experience while reducing costs</p>
+                          <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Foster data-driven strategic decision's effeciency using intelligent reports and dashboards</p>
+                        </div>
+                    </div>
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">SAP</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Implement the most complete ERP from the market</p>
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Maintain SAP technology with a mature team and using market's best practices</p>
+                        </div>
+                    </div>
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">Client Experience Development</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Develop new ways of realizing and monetizing value for the Connected Vehicle</p>
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Improve operational efficiencies and product quality levaraging Cognitive Analytics</p>
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Create differentiated experiences for customers, employees and others</p>
+                        </div>
+                    </div>
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">Agile Project Management</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Improve product or service delivery by combining the best of project management and agile methodologies together</p>
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Enhance client experience through incremental development and continuous improvement</p>
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Increase productivity and teamwork while delivering a user's need driven products or services</p>
+                        </div>
+                    </div>
+                    <div class="ds-row ds-accordion-item" aria-controls="ds-accordion-slidedown" aria-expanded="false">
+                        <div class="ds-accordion-title ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3">Cognitive to the core</div>
+                        <div class="ds-accordion-slidedown" aria-hidden="true">
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Make the best use of Artificial Intelligence to reinvent your company</p>
+                            <p class="ds-col-xs-12 ds-col-sm-10 ds-offset-sm-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-margin-bottom-0">- Delight your customers with a continuous machine learning support fed by their own interests and needs for a unique and personalized experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ds-row ds-col-xs-12">
+                </br>
+                  <!-- <center><button class="ds-button ds-secondary ds-width-auto ds-margin-bottom-0">See more</button></center> -->
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="ds-col-0" id="talents-link"></div>
+      <div class="ds-col-5 ds-shadow-raised" style="background-color: #FCFCFE; ">
+        <div class="ds-media-list-large ds-col-md-12 ds-offset-0" >
+          <div class="ds-padding-1">
+            <div class="ds-heading-2 ">Talents</div>
+          </div>
+          <div class="ds-carousel ">
+            <div class="ds-carousel-items">
+                <div>
+                    <div class="ds-blockquote ds-col-xs-10 ds-offset-xs-1">
+                      <img src="images/talents/tonny.jpeg" class="ds-img-responsive">
+                      <p class="ds-align-text-center ds-padding-top-1 ds-font-weight-bold">
+                          Our Mission:
+                      </p>
+                      <p class="ds-align-text-center ds-padding-top-12 ds-text-italic">
+                          "Be the Digital Reinvention protagonists of our clients, delivering unique experiences causing impact in our society."
+                      </p>
+                      <p class="ds-align-text-right ds-padding-top-12 ds-text-italic ds-font-weight-bold">
+                          Tonny , IBM Brazil General Manager
+                      </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="ds-blockquote ds-col-xs-10 ds-offset-xs-1">
+                      <img src="images/talents/our-people.jpg" class="ds-img-responsive">
+                      <p class="ds-align-text-center ds-padding-top-1 ds-font-weight-bold">
+                          Our People:
+                      </p>
+                      <p class="ds-align-text-center ds-padding-top-12 ds-text-italic">
+                          Our workforce is dedicated in client satisfaction in an end-to-end approach to deliver high quality services and products using the best technology and methodologies built by a more than <b> 20 years experience in our market across different sectors and industries. </b>
+                      </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="ds-blockquote ds-col-xs-10 ds-offset-xs-1">
+                      <img src="images/talents/innovation-automation.jpg" class="ds-img-responsive">
+                      <p class="ds-align-text-center ds-padding-top-1 ds-font-weight-bold">
+                          Innovation & Automation:
+                      </p>
+                      <p class="ds-align-text-center ds-padding-top-12 ds-text-italic">
+                          Our team delivers high quality service focusing also on Innovation and Automation to bring the best value of technology aligned with opportunities to improve our customers' businesses.
+                      </p>
+                      <a class="ds-button ds-secondary" href="/#innovation-automation-link">More Information</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="ds-blockquote ds-col-xs-10 ds-offset-xs-1">
+                      <img src="images/talents/continuous-development.jpg" class="ds-img-responsive">
+                      <p class="ds-align-text-center ds-padding-top-1 ds-font-weight-bold">
+                          Continuous Development:
+                      </p>
+                      <p class="ds-align-text-center ds-padding-top-12 ds-text-italic">
+                          Our leadership has the mission to continuously invest in our talents by leveraging trainings and by encouraging external certifications and IBM badges through reimbursement and people manager support.
+                      </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="ds-blockquote ds-col-xs-10 ds-offset-xs-1">
+                      <img src="images/talents/diversity-engagement.jpg" class="ds-img-responsive">
+                      <p class="ds-align-text-center ds-padding-top-1 ds-font-weight-bold">
+                          Diversity and Engagement:
+                      </p>
+                      <p class="ds-align-text-center ds-padding-top-12 ds-text-italic">
+                          CIC Brazil talents also focuses on a diversity friendly environment accepting, encouraing and fostering equality and empowerment of different genders, sexual orientation, religion, race, etc. We are the 3rd best place to work for women and the Xth best place to work in the whole country. Different initiatives and groups like BRGs - Business Resource Groups are strongly supported by HR and IBM leadership.
+                      </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+ </br>
+
+
+    <!- Overlays -!>
+    <!- Overlay - Automotive -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-automotive" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+              <center><iframe  id="ytplayer"  width="100%" height="350"
+                  src="https://www.youtube.com/embed/rj-3GTr1-js">
+              </iframe></center>
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1" onclick="stopVideo()" ><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-8">
+                          <h3 class="ds-media-list-title">Automotive</h3>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/automotive/volkswagen.png" width="150%" height="50%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-3 "></div>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/automotive/fiat.png" width="100%" height="5%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!- Overlay - Consumer -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-consumer" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+                  <img src="images/industries/consumer/consumer.jpg" class="ds-img-responsive">
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1"><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-8">
+                          <h3 class="ds-media-list-title">Consumer</h3>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/consumer/via-varejo.jpg" width="150%" height="50%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-3 "></div>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/consumer/fast-shop.png" width="100%" height="5%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!- Overlay - HealthCare and LifeScience -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-healthcare-lifescience" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+                  <img src="images/industries/healthcare/healthcare.jpg" class="ds-img-responsive">
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1"><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-8">
+                          <h3 class="ds-media-list-title">Health Care and Life Science</h3>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/healthcare/grupo-fleury.png" width="200%" height="50%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-3 "></div>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/healthcare/abbott.png" width="135%" height="5%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!- Overlay - Banking and Financial Markets -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-banking-financial-markets" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+              <center><iframe  id="ytplayer"  width="100%" height="350"
+                  src="https://www.youtube.com/embed/j2PI2nCoMI8">
+              </iframe></center>
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1" onclick="stopVideo()" ><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-12">
+                          <h3 class="ds-media-list-title">Banking and Financial Markets</h3>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/bankingandfinancialmarkets/bradesco.png" width="150%" height="50%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-1 "></div>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/bankingandfinancialmarkets/safra.png" width="120%" height="0%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-0_5 "></div>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/bankingandfinancialmarkets/santander.png" width="170%" height="5%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!- Overlay - Telecommunication -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-telecommunication" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+                  <img src="images/industries/telecommunication/telecommunication.jpg" class="ds-img-responsive">
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1"><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-10">
+                          <h3 class="ds-media-list-title">Telecom</h3>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/telecommunication/att.png" width="150%" height="50%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-2"></div>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/telecommunication/oi.png" width="70%" height="0%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-1"></div>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/telecommunication/sprint.png" width="170%" height="5%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!- Overlay - Insurance -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-insurance" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+                  <img src="images/industries/insurance/insurance.jpg" class="ds-img-responsive">
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1"><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-10">
+                          <h3 class="ds-media-list-title">Insurance</h3>
+                          <div class="ds-media-list-item ds-col-2">
+                              <div>
+                                  <center><img src="images/industries/insurance/porto-seguro.png" width="150%" height="50%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!- Overlay - Media & Entertainment -!>
+    <div class="ds-overlay-container">
+        <div class="ds-overlay" id="overlay-custom-close-demo-media-entertainment" aria-hidden="false" role="dialog" data-close-button="false">
+            <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+                  <img src="images/industries/media-entertainment/media-entertainment.jpg" class="ds-img-responsive">
+                <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1"><span class="ds-icon-close"></span></button>
+                <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                    <div class="ds-row ds-media-list-item">
+                      <div class="ds-col-sm-10">
+                          <h3 class="ds-media-list-title">Media & Entertainment</h3>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/media-entertainment/globo.png" width="70%" height="50%"></center>
+                             </div>
+                          </div>
+                          <div class="ds-col-1 "></div>
+                          <div class="ds-media-list-item ds-col-3">
+                              <div>
+                                  <center><img src="images/industries/media-entertainment/record.png" width="70%" height="5%"></center>
+                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ds-grid">
+     <div class="ds-row" style="background-image: url('images/industries/background.jpg'); ">
+       <div class="ds-media-list-large ds-col-md-11 ds-offset-1">
+           <div class="ds-row" id="innovation-automation-link">
+             <div class="ds-padding-1">
+               <div class="ds-heading-2 ds-font-weight-medium">Innovation and Automation</div>
+             </div>
+
+               <div class="ds-media-list-item ds-col-2">
+
+                   <div>
+                       <a><center><i class="fa fa-4x fa-lightbulb text-primary mb-3 text-success" style="color:#367AA3"></i></center> </a>
+                  </div>
+                   <center><h3 class="ds-media-list-title">Innovation</h3></center>
+                   <center><p class="ds-caption">See all our innovation cases</p></center>
+               </div>
+
+               <div class="ds-media-list-item ds-col-2">
+                   <div>
+                     <a href="http://garagem1157.mybluemix.net"><center><i class="fa fa-4x fa-box-open text-primary mb-3 text-success" style="color:#367AA3"></i></center></a>
+                  </div>
+                   <center><h3 class="ds-media-list-title">Garage 11.57</h3></center>
+                   <center><p class="ds-caption">Neutral space for agile innovation development in Bluemix</p></center>
+               </div>
+               <div class="ds-media-list-item ds-col-2">
+                   <div>
+                    <a href="http://www.research.ibm.com/labs/watson/index.shtml"><center><i class="fa fa-4x fa-flask text-primary mb-3 text-success" style="color:#367AA3"></i></center></a>
+                  </div>
+                   <center><h3 class="ds-media-list-title">Watson Lab</h3></center>
+                   <center><p class="ds-caption">The Thomas J. Watson Research Center</p></center>
+               </div>
+               <div class="ds-media-list-item ds-col-2">
+                   <div>
+                     <a href="http://www.research.ibm.com/labs/brazil/#projects"><center><i class="fa fa-4x fa-search text-primary mb-3 text-success" style="color:#367AA3"></i></center></a>
+                  </div>
+                   <center><h3 class="ds-media-list-title">Think Lab</h3></center>
+                   <center><p class="ds-caption">IBM Research – Brazil </p></center>
+               </div>
+               <div class="ds-media-list-item ds-col-2">
+                   <div>
+                     <a><center><i class="fa fa-4x fa-cogs text-primary mb-3 text-success" style="color:#367AA3"></i></center></a>
+                  </div>
+                   <center><h3 class="ds-media-list-title">Automation</h3></center>
+                   <center><p class="ds-caption">See all our innovation cases</p></center>
+               </div>
+               <div class="ds-row"></div>
+           </div>
+       </div>
+   </div>
+ </div>
+
+
+
+  <!- Overlay - Success Email -!>
+  <div class="ds-overlay-container">
+    <div class="ds-overlay" id="overlay-custom-close-demo-success-email" aria-hidden="false" role="dialog" data-close-button="false">
+        <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+            <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1" onclick="stopVideo()"><span class="ds-icon-close"></span></button>
+            <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                <div class="ds-row ds-media-list-item">
+                  <div class="ds-col-sm-8">
+                      <h3 class="ds-media-list-title">Your request was successfully sent. Thank you for the contact.</h3>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="ds-button ds-primary ds-align-block-center" id="overlay-custom-close-demo-success-email-open"> </div>
+  <!- Overlay - Error Email -!>
+  <div class="ds-overlay-container">
+    <div class="ds-overlay" id="overlay-custom-close-demo-error-email" aria-hidden="false" role="dialog" data-close-button="false">
+        <div class="ds-shadow-floating ds-overlay-box ds-col-xs-10 ds-offset-xs-1 ds-col-md-8 ds-offset-md-2 ds-col-lg-6 ds-offset-lg-3 ds-align-text-left" role="document">
+            <button class="ds-close ds-button ds-flat ds-close-button-left ds-close-button ds-margin-1 ds-padding-1" onclick="stopVideo()"><span class="ds-icon-close"></span></button>
+            <div class="ds-row ds-overlay-content ds-align-text-center" style="margin-bottom: 0;">
+                <div class="ds-row ds-media-list-item">
+                  <div class="ds-col-sm-8">
+                      <h3 class="ds-media-list-title">Some error occurred while sending your request. Please contact tluizm@br.ibm.com</h3>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="ds-button ds-primary ds-align-block-center" id="overlay-custom-close-demo-error-email-open"> </div>
+
+  <div class="ds-grid" >
+    <div class="ds-row" align="center">
+      <div class="ds-media-list-large ds-col-md-8 ds-offset-0" >
+          <div class="ds-row">
+            <div class="ds-padding-1" id="contact-link">
+              <div class="ds-heading-2">Contact</div>
+            </div>
+            <form id="idFormContact" method="post">
+              <div class="ds-row ds-margin-bottom-1_2">
+                <div class="ds-col-6 ds-margin-bottom-xs-2 ds-margin-bottom-md-0">
+                    <label for="name" class="ds-input-label ds-padding-left-0_5">NAME</label>
+                    <input type="text" class="ds-input" id="nameId" name="nameId">
+                </div>
+              </div>
+              <div class="ds-row ds-margin-bottom-1_2">
+                <div class="ds-col-6 ds-margin-bottom-xs-2 ds-margin-bottom-md-0">
+                    <label for="name" class="ds-input-label ds-padding-left-0_5">E-MAIL ADDRESS</label>
+                    <input type="text" class="ds-input" id="emailId" name="email">
+                </div>
+              </div>
+              <div class="ds-row ds-margin-bottom-1_2">
+                <div class="ds-col-6 ds-margin-bottom-xs-2 ds-margin-bottom-md-0">
+                    <p class="ds-input-label">REQUEST TYPE</p>
+                    <div class="ds-select">
+                      <select id="requestTypeId" name="requestType" required >
+                        <option>Information</option>
+      									<option>Help</option>
+      									<option>Ratecard</option>
+      									<option>Formal Presentation</option>
+      									<option>Question</option>
+                      </select>
+                    </div>
+                </div>
+              </div>
+              <div class="ds-row ds-margin-bottom-1_2">
+                <div class="ds-col-6 ds-margin-bottom-xs-2 ds-margin-bottom-md-0">
+                    <label for="name" class="ds-input-label ds-padding-left-0_5">DESCRIPTION</label>
+                    <div class="ds-input-container ds-margin-bottom-0">
+                      <textarea id="descriptionId"  name="description" class="ds-input" ></textarea>
+                    </div>
+                </div>
+              </div>
+              <label for="checkbox1" class="ds-input-checkbox  ds-margin-bottom-2">
+                  <input type="checkbox" id="checkboxId" value="yes" checked="" >
+                  <div class="ds-input-control"></div>
+                  <span>Send me news about CIC Brazil</span>
+              </label>
+            <div class="ds-row">
+                <button type="submit" onclick="submitForm()" class="ds-button ds-primary ds-width-auto ds-margin-bottom-0 ds-align-text-center">SUBMIT</button>
+            </div>
+            </form>
+            <div class="ds-row"></div>
+          </div>
+      </div>
+    </div>
+</div>
+<script>
+
+/* function for submit contact */
+ function submitForm() {
+   event.preventDefault();
+   var $form = $( this ),
+       url = "/sendEmail/";
+   var posting = $.post( url, { nameId: $('#nameId').val(), emailId: $('#emailId').val(), requestTypeId: $('#requestTypeId').val(), descriptionId: $('#descriptionId').val(), checkboxId: $('#checkboxId').val() } );
+
+   posting.done(function( data ) {
+     if (data == "success")
+       document.getElementById('overlay-custom-close-demo-success-email-open').click();
+     else
+       document.getElementById('overlay-custom-close-demo-error-email-open').click();
+   });
+ }
+
+ /* function for play video */
+  var tag = document.createElement('script');
+
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      height: '390',
+      width: '640',
+      videoId: 'm9jT6nStyCQ',
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+
+  function onPlayerReady(event) {
+    event.target.playVideo();
+  }
+
+  var done = false;
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING && !done) {
+      //setTimeout(stopVideo, 60000);
+      done = true;
+    }
+  }
+  function stopVideo() {
+     $("#ytplayer").stopVideo();
+}
+
+
+
+  document.getElementById("overlay-custom-close-demo-success-email-open").style.display = "none";
+  document.getElementById("overlay-custom-close-demo-error-email-open").style.display = "none";
+
+  $(function(){ //south_america_mill
+    $('#map').vectorMap({
+      markers: [
+        {id: 1, latLng: [-22.950421, -43.176945], name: 'Rio de Janeiro - Domestic and Exportation Delivery'},
+        {id: 2, latLng: [-19.975513, -43.946277], name: 'Belo Horizonte - Domestic and Exportation Delivery'},
+        {id: 3, latLng: [-30.046148, -51.229865], name: 'Rio Grande do Sul - Domestic Delivery'},
+        {id: 4, latLng: [-23.579866, -46.648860], name: 'São Paulo - Main Domestic Delivery'},
+        {id: 5, latLng: [-22.899421, -47.200635], name: 'Hortolândia - Main Domestic and Exportation Delivery'}
+      ],
+      map: 'south_america_mill',
+      scaleColors: ['#367AA3', '#0071A4'],
+      normalizeFunction: 'polynomial',
+      hoverOpacity: 10.7,
+      hoverColor: true,
+      markerStyle: {
+        initial: {
+          fill: '#27AA7C',
+          stroke: '#367AA3'
+        }
+      },
+      backgroundColor: '#A9AFB4',
+  });
+});
+</script>
+
+{{> footer}}
